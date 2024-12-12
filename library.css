@@ -1,0 +1,91 @@
+body {
+  background-color: white;
+  display: grid;
+  grid-template-columns: 45% 45%;
+  gap: 5%;
+  border: black;
+  width: 100%;
+  padding-left: 5px;
+  padding-right: 10px;
+  position: fixed;
+
+}
+
+.container {
+  width: 100%;
+  margin: 10px;
+  background: linear-gradient(to top, rgb(226, 109, 109), rgb(230, 162, 117),
+   rgb(228, 228, 116), rgb(128, 239, 128), rgb(113, 113, 235), rgb(189, 117, 241), violet);
+  padding-left: 10px;
+  padding-right: 10px;
+  border: black solid;
+}
+
+h1 {
+  color: black;
+  text-align: center;
+}
+
+form {
+  text-align: left;
+  /* padding: 1cm; */
+  margin: 5px 0 22px 0;
+  box-sizing: border-box;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+table {
+  border: solid black;
+  border-collapse: collapse;
+  width: 100%;
+  padding-left: 10px;
+  padding-right: 10px;
+  table-layout: fixed;
+}
+
+th,
+td {
+  border: 2px solid black;
+  padding: 10px;
+  text-align: center;
+  word-wrap: break-word; /* Enables line breaking for long content */
+  word-break: break-word; /* Additional compatibility */
+}
+
+input[type=text],
+input[type=number],
+input[type=email],
+input[type=tel],
+textarea {
+  width: 100%;
+  padding: 8px;
+  margin: 5px 0;
+  box-sizing: border-box;
+  background: #fffdfd;
+  border: solid black;
+}
+
+button {
+  background-color: #000000;
+  color: white;
+  padding: 16px 10px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.content-section {
+  display: none;
+}
+
+.content-section:target {
+  display: block;
+}
+
+button:hover {
+  opacity: 1;
+  background-color: bisque;
+}
